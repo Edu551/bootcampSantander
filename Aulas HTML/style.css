@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    background: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+}
+
+/*#region Aula introdução HTML5 e CSSS3*/
+.photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#title,
+.subtitle,
+.post_title {
+    color: #505050;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.post {
+    background: #fff;
+    padding: 10px;
+    border: 3px dotted #505050;
+    border-radius: 55px;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.div_post_image {
+    display: flex;
+    justify-content: center;
+}
+
+.post_image {
+    width: 250px;
+    height: 150px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.links {
+    list-style-type: none;
+    padding-left: 15px;
+    display: flex;
+}
+.links li a {
+    text-decoration: none;
+}
+
+.contacts_list {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
+}
+
+/*#endregion */
+
+/*#region Aulas Flexbox*/
+.voltar {
+    background: #505050;
+    list-style-type: none;
+    display: flex;
+    margin: 15px;
+    border: none;
+}
+.voltar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid green;
+    display: flex;
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    background: aqua;
+    margin: 5px;
+}
+
+.flex_container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.flex_item {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+}
+
+.row_reverse {
+    flex-direction: row-reverse;
+}
+
+.row_reverse li {
+    background-color: red;
+}
+
+.column {
+    float: left;
+    flex-direction: column;
+}
+
+.column li {
+    background-color: green;
+}
+
+.column_reverse {
+    float: right;
+    flex-direction: column-reverse;
+}
+
+.column_reverse li {
+    background-color: blueviolet;
+}
+
+/*#endregion */
+
+/*#region Aulas Flexbox - flex-container + flex-flow*/
+.flex_container_02 {
+    display: flex;
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+}
+
+.item_02 {
+    font-size: 24px;
+    height: 50%;
+    min-width: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.flex_container_03 {
+    display: flex;
+    border: 2px solid black;
+    max-width: 500px;
+}
+
+.item_03 {
+    margin: 5px;
+    font-size: 24px;
+    height: 50px;
+    min-width: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.flex_flow {
+    flex-flow: row wrap-reverse;
+}
+
+.violet {
+    background-color: violet;
+}
+/*#endregion */
